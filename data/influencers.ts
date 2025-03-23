@@ -91,7 +91,7 @@ const influencers: Influencer[] = [
     socialStats: [
       {
         platform: "Instagram",
-        handle: "elvishyadav",
+        handle: "elvish_yadav",
         url: "https://www.instagram.com/elvish_yadav/",
         followers: 14500000,
         engagement: 8.2,
@@ -118,28 +118,28 @@ const influencers: Influencer[] = [
       {
         id: "e1",
         platform: "Instagram",
-        content: "New vlog coming soon! Stay tuned 🔥",
-        imageUrl: "/placeholder.svg?height=200&width=350",
-        url: "https://www.instagram.com/p/abc123/",
+        content: "Mere adde mein excitement ka meter hoga always on top 🔥 @7bantaiz Indian Game Adda | Now Streaming | JioHotstar Sparks Watch for free @jiohotstar #IndianGameAddaOnJioHotstar #JioHotstar #JioHotstarSparks #infinitepossibilities",
+        imageUrl: "/elvishig.jpg",
+        url: "https://www.instagram.com/p/DHim48HPFi1/",
         engagement: {
-          likes: 1200000,
+          likes: 95257,
           comments: 25000,
           shares: 15000,
         },
-        date: "2023-12-15",
+        date: "2025-03-25",
       },
       {
         id: "e2",
         platform: "YouTube",
         content: "Grand Delivery Of India's First Electric Gwagon 😍",
-        imageUrl: "/elvishyt.jpg",
+        imageUrl: "/elvishyt.png",
         url: "https://youtu.be/-RZMtV6hhgY?si=frZCHZbKTTlNc-_O",
         engagement: {
-          likes: 850000,
+          likes: 300000,
           comments: 42000,
           views: 5200000,
         },
-        date: "2023-12-10",
+        date: "2025-02-11",
       },
     ],
     reviews: [
@@ -148,7 +148,7 @@ const influencers: Influencer[] = [
         content:
           "Elvish Yadav has established himself as one of India's most influential content creators with authentic engagement and consistent growth.",
         sentiment: "positive",
-        date: "2023-10-15",
+        date: "2025-02-23",
         rating: 4.5,
       },
       {
@@ -223,13 +223,13 @@ const influencers: Influencer[] = [
     subCategory: ["Acting", "Dance"],
     location: "Mumbai, India",
     joinedDate: "2017-03-18",
-    profileImage: "/placeholder.svg?height=400&width=400",
-    coverImage: "/placeholder.svg?height=400&width=1200",
+    profileImage: "/faisupfp.jpg",
+    coverImage: "/faisucover.jpg",
     socialStats: [
       {
         platform: "Instagram",
         handle: "mr_faisu_07",
-        url: "https://www.instagram.com/mr_faisu_07/",
+        url: "https://www.instagram.com/mr_faisu_07",
         followers: 28500000,
         engagement: 7.5,
         verified: true,
@@ -237,7 +237,7 @@ const influencers: Influencer[] = [
       {
         platform: "YouTube",
         handle: "FaisalShaikh",
-        url: "https://www.youtube.com/c/FaisalShaikh",
+        url: "https://youtube.com/@mrfaisu?si=auzwV1XhoHyEBDX6",
         followers: 8500000,
         engagement: 5.8,
         verified: true,
@@ -255,11 +255,11 @@ const influencers: Influencer[] = [
       {
         id: "f1",
         platform: "Instagram",
-        content: "New photoshoot for @fashionbrand 📸 #FashionGoals",
-        imageUrl: "/placeholder.svg?height=200&width=350",
-        url: "https://www.instagram.com/p/def456/",
+        content: "Eid ka plan toh ready hai, lekin look ready hai kya? Maine toh kar liya Spykar se full tayaari! Iss Eid, note nahi... Denim wali Eidi lo, jo chale lambe time tak! 😎",
+        imageUrl: "/faisuig.jpg",
+        url: "https://www.instagram.com/reel/DHiA90_CnC-/?igsh=MXJrZHdpOHBqeGlmdQ==",
         engagement: {
-          likes: 1800000,
+          likes: 62000,
           comments: 32000,
           shares: 18000,
         },
@@ -268,11 +268,11 @@ const influencers: Influencer[] = [
       {
         id: "f2",
         platform: "YouTube",
-        content: "A Day in My Life | Behind The Scenes",
-        imageUrl: "/placeholder.svg?height=200&width=350",
-        url: "https://www.youtube.com/watch?v=def456",
+        content: "MasterChef Ke Set Par Injury! Phir Bhi Cooking Jaari! @MrFaisu",
+        imageUrl: "/faisuyt.jpg",
+        url: "https://youtu.be/nFR8YKy9KGk?si=KZ5QHy6sUPB8L7sN",
         engagement: {
-          likes: 620000,
+          likes: 77000,
           comments: 35000,
           views: 4800000,
         },
@@ -361,7 +361,7 @@ const influencers: Influencer[] = [
     subCategory: ["Acting", "Music"],
     location: "Mumbai, India",
     joinedDate: "2016-05-22",
-    profileImage: "/placeholder.svg?height=400&width=400",
+    profileImage: "/jannatpfp.jpg",
     coverImage: "/placeholder.svg?height=400&width=1200",
     socialStats: [
       {
@@ -504,7 +504,7 @@ const influencers: Influencer[] = [
     subCategory: ["Music", "Acting"],
     location: "Delhi, India",
     joinedDate: "2015-06-20",
-    profileImage: "/placeholder.svg?height=400&width=400",
+    profileImage: "/bhuvanpfp.jpg",
     coverImage: "/placeholder.svg?height=400&width=1200",
     socialStats: [
       {
@@ -647,7 +647,7 @@ const influencers: Influencer[] = [
     subCategory: ["Fashion", "Acting"],
     location: "Delhi, India",
     joinedDate: "2016-08-15",
-    profileImage: "/placeholder.svg?height=400&width=400",
+    profileImage: "/kushapfp.jpg",
     coverImage: "/placeholder.svg?height=400&width=1200",
     socialStats: [
       {
@@ -2798,7 +2798,7 @@ const influencers: Influencer[] = [
     subCategory: ["Recipes", "Tutorials"],
     location: "Noida, India",
     joinedDate: "2014-08-15",
-    profileImage: "/placeholder.svg?height=400&width=400",
+    profileImage: "/kabitapfp.jpg",
     coverImage: "/placeholder.svg?height=400&width=1200",
     socialStats: [
       {

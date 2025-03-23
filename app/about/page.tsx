@@ -6,6 +6,39 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle, Shield, Award } from "lucide-react"
 
 export default function AboutPage() {
+
+  const teamMembers = [
+    {
+      id: 1,
+      name: "Nitin Verma",
+      position: "Founder",
+      image: "/nitin.jpg",
+      description: "Founder of InfluenceIQ with expertise in social media growth and AI-driven analytics.",
+    },
+    {
+      id: 2,
+      name: "Dakshit Bamaniya",
+      position: "Co-Founder",
+      image: "/dakshit.jpg",
+      description: "Co-Founder with a strong background in blockchain technology and software development.",
+    },
+    {
+      id: 3,
+      name: "Dhruv Dwivedi",
+      position: "Co-Founder",
+      image: "/dhruv.jpg",
+      description: "Passionate about AI and data science, bringing innovative solutions to InfluenceIQ.",
+    },
+    {
+      id: 4,
+      name: "Jitendra Saini",
+      position: "Co-Founder",
+      image: "/jitu.jpg",
+      description: "Tech enthusiast with a focus on full-stack development and scalable systems.",
+    },
+  ];
+  
+  
   return (
     <div>
       {/* Hero Section */}
@@ -24,7 +57,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="/about1.jpg"
                 alt="About InfluenceIQ"
                 width={500}
                 height={400}
@@ -41,7 +74,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="/about2.jpg"
                 alt="Our Story"
                 width={500}
                 height={400}
@@ -135,26 +168,25 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[1, 2, 3, 4].map((i) => (
-              <Card key={i} className="overflow-hidden">
-                <div className="aspect-square relative">
-                  <Image
-                    src={`/placeholder.svg?height=300&width=300`}
-                    alt={`Team Member ${i}`}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <CardContent className="text-center pt-6">
-                  <h3 className="text-xl font-bold">Team Member Name</h3>
-                  <p className="text-blue-600 mb-2">Position Title</p>
-                  <p className="text-sm text-muted-foreground">
-                    Brief description about the team member's expertise and background.
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+  {teamMembers.map((member) => (
+    <Card key={member.id} className="overflow-hidden">
+      <div className="aspect-square relative">
+        <Image
+          src={member.image}
+          alt={member.name}
+          fill
+          className="object-cover"
+        />
+      </div>
+      <CardContent className="text-center pt-6">
+        <h3 className="text-xl font-bold">{member.name}</h3>
+        <p className="text-blue-600 mb-2">{member.position}</p>
+        <p className="text-sm text-muted-foreground">{member.description}</p>
+      </CardContent>
+    </Card>
+  ))}
+</div>
+
         </div>
       </section>
 

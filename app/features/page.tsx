@@ -90,7 +90,7 @@ export default function FeaturesPage() {
                 </div>
                 <div className="relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=500"
+                    src="/searchfeature.png"
                     alt="Smart Search & Discovery"
                     width={500}
                     height={400}
@@ -104,7 +104,7 @@ export default function FeaturesPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="order-2 md:order-1">
                   <Image
-                    src="/placeholder.svg?height=400&width=500"
+                    src="/influencefeature.png"
                     alt="Influence Score Calculation"
                     width={500}
                     height={400}
@@ -205,7 +205,7 @@ export default function FeaturesPage() {
                 </div>
                 <div className="relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=500"
+                    src="/analyticsfeature.png"
                     alt="Data Visualization & Analytics"
                     width={500}
                     height={400}
@@ -219,7 +219,7 @@ export default function FeaturesPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="order-2 md:order-1">
                   <Image
-                    src="/placeholder.svg?height=400&width=500"
+                    src="/securityfeature.jpg"
                     alt="Security Features"
                     width={500}
                     height={400}
